@@ -19,6 +19,8 @@ To install, run the npm install command from inside the Jekyll directory
 
 Now copy `jekyll-gulp-config.json` to `/path/to/jekyll/directory/jekyll-gulp-config.json`, and edit `destination-folder` so that it reflects the destination to publish to. This must be a remote server you have ssh access to, and a key authentication setup for (e.g. `user@website:/website/folder/`).
 
+If you are using an SCM (e.g. git), add `gulpfile.js`, `package.json`, `node_modules/` to your ignore list to avoid committing copies of this project.
+
 # Usage
 
 The default task is watch.
