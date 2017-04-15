@@ -1,0 +1,16 @@
+{
+  "name": "jekyll-gulp",
+  "version": "1.0.0",
+  "description": "Uses gulp and browser sync to keep pages a Jekyll site up-to-date while developing, also publishes with rsync.",
+  "keywords": [
+    "jekyll", "gulp"
+  ],
+  "author": "Eugene Davis",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/eugene-davis/jekyll-gulp#README.md",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "run-sequence": "^1.2.2"
+  }
+}
